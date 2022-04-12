@@ -3,12 +3,13 @@
 <details open='true'>
 <summary>English</summary>
 
-## Convert Constructor to Builder Pattern
+## Practice Real World Builder Pattern
 
-[Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) are general, reusable solutions to commonly occurring problems.
+`Builder Pattern` is widely used in real world, for example, AWS SDK.
+Please complete the [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)'s `createPutObjectRequest` method:
 
-There is a huge horrible constructor in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java), please convert it to `Builer Pattern` (complete `ComputerBuilder` class) and
-understand the advantages of it in your own hands.
+- Find and import the AWS S3 SDK
+- Use `Builder Pattern` to create a `PutObjectRequest` object with the provided parameters.
 
 - You can accomplish this challenge via any way below:
   - Recommended for beginners: run `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` to download the code,
@@ -38,11 +39,10 @@ Any changes to files other than the following files will be rejected:**
 
 ## 使用真实世界中的<ruby>建造者模式<rt>Builder Pattern</rt></ruby>
 
-`建造者模式`在真实世界中被广泛使用，[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)中的`createPutObjectRequest`方法。
+`建造者模式`在真实世界中被广泛使用，例如AWS SDK。请完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)中的`createPutObjectRequest`方法：
 
-[设计模式](https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA)的出现是为了解决一些特定问题。
-
-[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)中现在包含一个巨大无比的构造器，请将其改写为建造者模式（完成`ComputerBuilder`类），在亲自动手实践的过程中体会一下建造者模式的好处。
+- 查找并引入AWS S3 Java SDK；
+- 使用`建造者模式`，根据方法提供的参数，创建一个`PutObjectRequest`对象。
 
 - 你可以使用以下任意一种方法完成挑战：
   - 初学者推荐：运行`git clone https://git.bytelegend.com/ByteLegendQuest/java-real-world-builder-practice`将代码下载到本地，在本地使用IDE调试完成后复制到网页编辑器里提交。
@@ -68,14 +68,17 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>繁體中文</summary>
 
-將構造函數轉換為生成器模式
--------------
+練習真實世界的建造者模式
+------------
 
-[設計模式](https://en.wikipedia.org/wiki/Software_design_pattern)是針對常見問題的通用、可重用的解決方案。
+`Builder Pattern`在現實世界中被廣泛使用，例如 AWS SDK。請完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)的`createPutObjectRequest`方法：
 
-在[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)中有一個巨大的可怕的構造函數，請將其轉換為`Builer Pattern` （完整的`ComputerBuilder`類）並了解它的優點在你自己的手中。
-
+-   查找並導入 AWS S3 開發工具包
+    
+-   使用`Builder Pattern`使用提供的參數創建一個`PutObjectRequest`對象。
+    
 -   您可以通過以下任何方式完成此挑戰：
+    
     -   推薦給初學者：運行`git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice`下載代碼，在本地 IDE 中完成挑戰，然後在網頁編輯器中復制/粘貼/提交答案.
         -   如果你不知道怎麼做，你可以點擊[import project into IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) 。
         -   在提交代碼之前，您最好在本地運行`mvn verify`以節省時間。不知道怎麼樣？請參閱[在 IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) [中進行本地驗證/在 VSCode 中進行本地驗證](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md)。
@@ -83,7 +86,9 @@ Any changes to files other than the following files will be rejected:**
     -   或者：如果您有足夠的信心直接在 Web 編輯器中編寫代碼，請繼續。
     -   或者：如果你熟悉 GitHub，你可以 fork[倉庫](https://github.com/ByteLegendQuest/java-real-world-builder-practice)，完成挑戰並創建一個拉取請求。
 -   機器人會檢查你的 PR 並告訴你是否完成了挑戰。
+    
 -   回到[ByteLegend](https://bytelegend.com)繼續你的英雄之旅。
+    
 
 祝你好運！
 
@@ -98,14 +103,17 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>Español</summary>
 
-Convertir constructor en patrón constructor
--------------------------------------------
+Practica el patrón Real World Builder
+-------------------------------------
 
-Los [patrones de diseño](https://en.wikipedia.org/wiki/Software_design_pattern) son soluciones generales y reutilizables para problemas comunes.
+`Builder Pattern` se usa ampliamente en el mundo real, por ejemplo, AWS SDK. Complete el método `createPutObjectRequest` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) :
 
-Hay un enorme y horrible constructor en [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) , conviértalo a `Builer Pattern` (clase completa de `ComputerBuilder` ) y comprenda sus ventajas en sus propias manos.
-
+-   Busque e importe el SDK de AWS S3
+    
+-   Utilice `Builder Pattern` para crear un objeto `PutObjectRequest` con los parámetros proporcionados.
+    
 -   Puede lograr este desafío de cualquier manera a continuación:
+    
     -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` para descargar el código, termine el desafío en su IDE local, luego copie/pegue/envíe la respuesta en el editor web .
         -   Si no sabe cómo hacerlo, puede hacer clic en [importar proyecto a IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [importar proyecto a VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar su código, es mejor que ejecute `mvn verify` localmente para ahorrar tiempo. ¿No sabes cómo? Ver [verificar localmente en IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente en VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
@@ -113,7 +121,9 @@ Hay un enorme y horrible constructor en [src/main/java/com/bytelegend/Challenge.
     -   O: si tiene la confianza suficiente para escribir código en el editor web directamente, adelante.
     -   O: si está familiarizado con GitHub, puede bifurcar [el repositorio](https://github.com/ByteLegendQuest/java-real-world-builder-practice) , finalizar el desafío y crear una solicitud de extracción.
 -   El bot verificará tu PR y te dirá si logras el desafío.
+    
 -   Regrese a [ByteLegend](https://bytelegend.com) y continúe su viaje de héroe.
+    
 
 ¡Buena suerte!
 
@@ -128,14 +138,17 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>العربية</summary>
 
-تحويل منشئ إلى نموذج منشئ
--------------------------
+ممارسة نمط منشئ العالم الحقيقي
+------------------------------
 
-[أنماط التصميم](https://en.wikipedia.org/wiki/Software_design_pattern) هي حلول عامة قابلة لإعادة الاستخدام للمشاكل الشائعة الحدوث.
+يستخدم `Builder Pattern` على نطاق واسع في العالم الحقيقي ، على سبيل المثال ، AWS SDK. يرجى إكمال طريقة [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) `createPutObjectRequest` :
 
-يوجد مُنشئ فظيع ضخم في [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) ، يرجى تحويله إلى `Builer Pattern` (فئة كاملة من مُنشئ `ComputerBuilder` ) وفهم مزاياها بين يديك.
-
+-   ابحث عن AWS S3 SDK واستوردها
+    
+-   استخدم `Builder Pattern` لإنشاء كائن `PutObjectRequest` المتوفرة.
+    
 -   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
+    
     -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محرر الويب .
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
@@ -143,7 +156,9 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
     -   أو: إذا كنت واثقًا بدرجة كافية من كتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-real-world-builder-practice) وإنهاء التحدي وإنشاء طلب سحب.
 -   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
+    
 -   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
+    
 
 حظا طيبا وفقك الله!
 
@@ -158,22 +173,27 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>Português</summary>
 
-Converter construtor para padrão de construtor
-----------------------------------------------
+Pratique o Padrão Construtor do Mundo Real
+------------------------------------------
 
-[Padrões de projeto](https://en.wikipedia.org/wiki/Software_design_pattern) são soluções gerais e reutilizáveis para problemas comuns.
+`Builder Pattern` é amplamente usado no mundo real, por exemplo, AWS SDK. Preencha o método `createPutObjectRequest` do [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) :
 
-Existe um construtor enorme e horrível em [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) , por favor converta-o para `Builer Pattern` (classe `ComputerBuilder` completa) e entenda as vantagens dele em suas próprias mãos.
-
+-   Encontre e importe o SDK do AWS S3
+    
+-   Use o `Builder Pattern` para criar um objeto `PutObjectRequest` com os parâmetros fornecidos.
+    
 -   Você pode realizar esse desafio de qualquer maneira abaixo:
+    
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta no editor da web .
-        -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-real-world-builder-practice/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
     -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-real-world-builder-practice) , finalizar o desafio e criar um pull request.
--   O bot verificará seu PR e informará se você cumpriu o desafio.
+-   O bot verificará seu PR e informará se você cumprir o desafio.
+    
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
+    
 
 Boa sorte!
 
@@ -188,14 +208,17 @@ Se precisar de ajuda, sinta-se à vontade para se juntar à [Comunidade Discord]
 <details>
 <summary>Bahasa Indonesia</summary>
 
-Konversikan Konstruktor ke Pola Pembangun
------------------------------------------
+Berlatih Pola Pembangun Dunia Nyata
+-----------------------------------
 
-[Pola desain](https://en.wikipedia.org/wiki/Software_design_pattern) adalah solusi umum yang dapat digunakan kembali untuk masalah yang sering terjadi.
+`Builder Pattern` banyak digunakan di dunia nyata, misalnya, AWS SDK. Harap lengkapi metode `createPutObjectRequest` [src/main/Java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) :
 
-Ada konstruktor besar yang mengerikan di [src/main/Java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) , harap ubah ke `Builer Pattern` (kelas `ComputerBuilder` lengkap) dan pahami kelebihannya di tangan Anda sendiri.
-
+-   Temukan dan impor AWS S3 SDK
+    
+-   Gunakan `Builder Pattern` untuk membuat objek `PutObjectRequest` dengan parameter yang disediakan.
+    
 -   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
+    
     -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web .
         -   Jika Anda tidak tahu caranya, Anda bisa mengklik [import project into IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Sebelum mengirimkan kode Anda, Anda sebaiknya menjalankan `mvn verify` secara lokal untuk menghemat waktu. Tidak tahu bagaimana? Lihat [verifikasi secara lokal di IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [verifikasi secara lokal di VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
@@ -203,7 +226,9 @@ Ada konstruktor besar yang mengerikan di [src/main/Java/com/bytelegend/Challenge
     -   Atau: jika Anda cukup percaya diri untuk menulis kode di editor web secara langsung, silakan.
     -   Atau: jika Anda terbiasa dengan GitHub, Anda dapat melakukan fork [repo](https://github.com/ByteLegendQuest/java-real-world-builder-practice) , menyelesaikan tantangan, dan membuat permintaan tarik.
 -   Bot akan memeriksa PR Anda dan memberi tahu Anda jika Anda menyelesaikan tantangan.
+    
 -   Kembali ke [ByteLegend](https://bytelegend.com) dan lanjutkan perjalanan pahlawan Anda.
+    
 
 Semoga berhasil!
 
@@ -218,14 +243,17 @@ Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Disc
 <details>
 <summary>Français</summary>
 
-Convertir le constructeur en modèle de constructeur
----------------------------------------------------
+Pratiquez le modèle de construction du monde réel
+-------------------------------------------------
 
-Les [modèles de conception](https://en.wikipedia.org/wiki/Software_design_pattern) sont des solutions générales et réutilisables à des problèmes courants.
+`Builder Pattern` est largement utilisé dans le monde réel, par exemple, AWS SDK. Veuillez compléter la méthode `createPutObjectRequest` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) :
 
-Il y a un énorme constructeur horrible dans [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) , veuillez le convertir en `Builer Pattern` (classe `ComputerBuilder` complète) et en comprendre les avantages entre vos propres mains.
-
+-   Rechercher et importer le SDK AWS S3
+    
+-   Utilisez `Builder Pattern` pour créer un objet `PutObjectRequest` avec les paramètres fournis.
+    
 -   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
+    
     -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans l'éditeur Web .
         -   Si vous ne savez pas comment, vous pouvez cliquer sur [importer le projet dans IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [importer le projet dans VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Avant de soumettre votre code, vous feriez mieux d'exécuter `mvn verify` localement pour gagner du temps. Vous ne savez pas comment ? Voir [vérifier localement dans IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [vérifier localement dans VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
@@ -233,7 +261,9 @@ Il y a un énorme constructeur horrible dans [src/main/java/com/bytelegend/Chall
     -   Ou : si vous êtes suffisamment confiant pour écrire du code directement dans l'éditeur Web, continuez.
     -   Ou : si vous êtes familier avec GitHub, vous pouvez forker [le dépôt](https://github.com/ByteLegendQuest/java-real-world-builder-practice) , terminer le défi et créer une demande d'extraction.
 -   Le bot vérifiera votre PR et vous dira si vous accomplissez le défi.
+    
 -   Retournez à [ByteLegend](https://bytelegend.com) et continuez votre voyage de héros.
+    
 
 Bonne chance!
 
@@ -248,14 +278,17 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>日本語</summary>
 
-コンストラクターをビルダーパターンに変換する
-----------------------
+実世界のビルダーパターンを練習する
+-----------------
 
-[デザインパターン](https://en.wikipedia.org/wiki/Software_design_pattern)は、一般的に発生する問題に対する一般的な再利用可能なソリューションです。
+`Builder Pattern`は、AWS SDKなど、現実の世界で広く使用されています。 [src / main / java / com / bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)の`createPutObjectRequest`メソッドを完了してください。
 
-[src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java)には巨大な恐ろしいコンストラクタがあります。それを`Builer Pattern` （完全な`ComputerBuilder`クラス）に変換して、自分の手でその利点を理解してください。
-
+-   AWSS3SDKを見つけてインポートします
+    
+-   `Builder Pattern`を使用して、提供されたパラメーターで`PutObjectRequest`オブジェクトを作成します。
+    
 -   この課題は、以下のいずれかの方法で達成できます。
+    
     -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice`を実行してコードをダウンロードし、ローカルIDEでチャレンジを終了してから、Webエディターで回答をコピー/貼り付け/送信します。
         -   方法がわからない場合は、\[ [プロジェクトをIDEAにインポート](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md)\]/\[ [プロジェクトをVSCodeにインポート](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md)\]をクリックできます。
         -   コードを送信する前に、時間を節約するためにローカルで`mvn verify`実行することをお勧めします。方法がわかりませんか？ [IDEAでローカルに](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md)[検証する/VSCodeでローカルに](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md)検証するを参照してください。
@@ -263,7 +296,9 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
     -   または：Webエディターで直接コードを記述できる自信がある場合は、先に進んでください。
     -   または：GitHubに精通している場合は[、リポジトリ](https://github.com/ByteLegendQuest/java-real-world-builder-practice)をフォークしてチャレンジを終了し、プルリクエストを作成できます。
 -   ボットはPRをチェックし、チャレンジを達成したかどうかを通知します。
+    
 -   [ByteLegend](https://bytelegend.com)に戻り、ヒーローの旅を続けてください。
+    
 
 幸運を！
 
@@ -278,22 +313,27 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Русский</summary>
 
-Преобразование конструктора в шаблон построителя
-------------------------------------------------
+Практикуйте шаблон Real World Builder
+-------------------------------------
 
-[Шаблоны проектирования](https://en.wikipedia.org/wiki/Software_design_pattern) — это общие, многократно используемые решения часто возникающих проблем.
+`Builder Pattern` широко используется в реальном мире, например, AWS SDK. Заполните метод `createPutObjectRequest` [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) :
 
-В [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) есть огромный ужасный конструктор, пожалуйста, преобразуйте его в `Builer Pattern` (полный класс `ComputerBuilder` ) и поймите его преимущества своими руками.
-
+-   Найдите и импортируйте SDK AWS S3
+    
+-   Используйте `Builder Pattern` для создания объекта `PutObjectRequest` с предоставленными параметрами.
+    
 -   Вы можете выполнить эту задачу любым способом, указанным ниже:
+    
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` , чтобы загрузить код, завершите задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редакторе. .
         -   Если вы не знаете как, вы можете нажать [импортировать проект в IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [импортировать проект в VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Перед отправкой кода вам лучше запустить `mvn verify` локально, чтобы сэкономить время. Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
-    -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-real-world-builder-practice/zip/refs/heads/main) , если вам не нравятся операции `git` .
+    -   Крайне не рекомендуется: вы можете [щелкнуть здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-real-world-builder-practice/zip/refs/heads/main) , если вам не нравятся операции `git` .
     -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
     -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-real-world-builder-practice) , выполнить задание и создать запрос на включение.
 -   Бот проверит ваш PR и сообщит, выполнили ли вы задание.
+    
 -   Вернитесь в [ByteLegend](https://bytelegend.com) и продолжайте свое героическое путешествие.
+    
 
 Удачи!
 
@@ -308,14 +348,17 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Deutsch</summary>
 
-Konvertieren Sie den Konstruktor in das Builder-Muster
-------------------------------------------------------
+Üben Sie Baumuster aus der realen Welt
+--------------------------------------
 
-[Entwurfsmuster](https://en.wikipedia.org/wiki/Software_design_pattern) sind allgemeine, wiederverwendbare Lösungen für häufig auftretende Probleme.
+`Builder Pattern` wird in der realen Welt häufig verwendet, z. B. AWS SDK. Bitte vervollständigen Sie die Methode createPutObjectRequest von [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) `createPutObjectRequest`
 
-Es gibt einen riesigen schrecklichen Konstruktor in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) , konvertieren Sie ihn bitte in ein `Builer Pattern` (vollständige `ComputerBuilder` -Klasse) und verstehen Sie die Vorteile davon in Ihren eigenen Händen.
-
+-   Suchen und importieren Sie das AWS S3 SDK
+    
+-   Verwenden Sie `Builder Pattern` , um ein `PutObjectRequest` Objekt mit den bereitgestellten Parametern zu erstellen.
+    
 -   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
+    
     -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen Sie dann die Antwort im Web-Editor ein/übermitteln Sie sie .
         -   Wenn Sie nicht wissen wie, können Sie auf [Projekt in IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) [importieren / Projekt in VSCode importieren klicken](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Bevor Sie Ihren Code einreichen, sollten Sie `mvn verify` besser lokal ausführen, um Zeit zu sparen. Sie wissen nicht wie? Siehe [Lokal verifizieren in IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [Lokal verifizieren in VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
@@ -323,7 +366,9 @@ Es gibt einen riesigen schrecklichen Konstruktor in [src/main/java/com/bytelegen
     -   Oder: Wenn Sie sicher genug sind, Code direkt im Web-Editor zu schreiben, fahren Sie fort.
     -   Oder: Wenn Sie sich mit GitHub auskennen, können Sie [das Repo forken](https://github.com/ByteLegendQuest/java-real-world-builder-practice) , die Challenge beenden und einen Pull-Request erstellen.
 -   Der Bot überprüft Ihre PR und teilt Ihnen mit, ob Sie die Herausforderung meistern.
+    
 -   Gehen Sie zurück zu [ByteLegend](https://bytelegend.com) und setzen Sie Ihre Heldenreise fort.
+    
 
 Viel Glück!
 
@@ -338,14 +383,17 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>한국어</summary>
 
-생성자를 빌더 패턴으로 변환
----------------
+Real World Builder 패턴 연습
+------------------------
 
-[디자인 패턴](https://en.wikipedia.org/wiki/Software_design_pattern) 은 일반적으로 발생하는 문제에 대한 일반적이고 재사용 가능한 솔루션입니다.
+`Builder Pattern` 은 AWS SDK와 같이 실제 세계에서 널리 사용됩니다. [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) 의 `createPutObjectRequest` 메소드를 완료하십시오:
 
-[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) 에 거대한 생성자가 있습니다. 이를 `Builer Pattern` (완전한 `ComputerBuilder` 클래스)으로 변환하고 그 이점을 직접 이해하십시오.
-
+-   AWS S3 SDK 찾기 및 가져오기
+    
+-   `Builder Pattern` 을 사용하여 제공된 매개변수로 `PutObjectRequest` 객체를 생성합니다.
+    
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
+    
     -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출하십시오. .
         -   방법을 모르는 경우 [프로젝트를 IDEA로](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) [가져오기 / 프로젝트를 VSCode로 가져](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) 오기를 클릭할 수 있습니다.
         -   코드를 제출하기 전에 시간을 절약하기 위해 로컬에서 `mvn verify` 를 실행하는 것이 좋습니다. 방법을 모르십니까? [IDEA에서 로컬로](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) [확인/VSCode에서 로컬로](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) 확인을 참조하세요.
@@ -353,7 +401,9 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
     -   또는 웹 편집기에서 직접 코드를 작성할 만큼 자신이 있다면 계속 진행하십시오.
     -   또는 GitHub에 익숙하다면 리포지토리를 분기 [하고](https://github.com/ByteLegendQuest/java-real-world-builder-practice) 챌린지를 완료하고 풀 요청을 생성할 수 있습니다.
 -   봇은 PR을 확인하고 도전 과제를 달성했는지 알려줍니다.
+    
 -   [ByteLegend](https://bytelegend.com) 로 돌아가 영웅 여정을 계속하세요.
+    
 
 행운을 빕니다!
 
@@ -368,14 +418,17 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>Italiano</summary>
 
-Converti Costruttore in Pattern Builder
----------------------------------------
+Esercitati con il modello di costruzione del mondo reale
+--------------------------------------------------------
 
-I [modelli di progettazione](https://en.wikipedia.org/wiki/Software_design_pattern) sono soluzioni generali e riutilizzabili a problemi che si verificano comunemente.
+`Builder Pattern` è ampiamente utilizzato nel mondo reale, ad esempio AWS SDK. Si prega di completare il metodo `createPutObjectRequest` di [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) :
 
-C'è un enorme orribile costruttore in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/src/main/java/com/bytelegend/Challenge.java) , convertilo in `Builer Pattern` (classe completa di `ComputerBuilder` ) e comprendine i vantaggi nelle tue mani.
-
+-   Trova e importa l'SDK AWS S3
+    
+-   Utilizzare `Builder Pattern` per creare un oggetto `PutObjectRequest` con i parametri forniti.
+    
 -   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
+    
     -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-real-world-builder-practice` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta nell'editor web .
         -   Se non sai come fare, puoi fare clic su [importa progetto in IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import.md) / [importa progetto in VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Prima di inviare il codice, è meglio eseguire `mvn verify` in locale per risparmiare tempo. Non sai come? Vedere [verifica in locale in IDEA](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-idea.md) / [verifica in locale in VSCode](https://github.com/ByteLegendQuest/java-real-world-builder-practice/blob/main/docs/en/run-mvn-verify-vscode.md) .
@@ -383,7 +436,9 @@ C'è un enorme orribile costruttore in [src/main/java/com/bytelegend/Challenge.j
     -   Oppure: se sei abbastanza sicuro da scrivere il codice direttamente nell'editor web, vai avanti.
     -   Oppure: se hai familiarità con GitHub, puoi eseguire il fork [del repository](https://github.com/ByteLegendQuest/java-real-world-builder-practice) , completare la sfida e creare una richiesta pull.
 -   Il bot controllerà il tuo PR e ti dirà se hai superato la sfida.
+    
 -   Torna a [ByteLegend](https://bytelegend.com) e continua il tuo viaggio da eroe.
+    
 
 In bocca al lupo!
 
