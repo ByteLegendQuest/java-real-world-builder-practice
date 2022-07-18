@@ -48,12 +48,11 @@
       </profile>
    </profiles>
    <dependencies>
-         <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/s3 -->
       <dependency>
          <groupId>software.amazon.awssdk</groupId>
-         <artifactId>s3</artifactId>
-         <version>2.17.181</version>
-      </dependency>
+         <artifactId>aws-sdk-java</artifactId>
+         <version>2.17.233</version>
+         </dependency>
       <dependency>
          <groupId>org.junit.jupiter</groupId>
          <artifactId>junit-jupiter-api</artifactId>
