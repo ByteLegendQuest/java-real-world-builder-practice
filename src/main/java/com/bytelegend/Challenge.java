@@ -10,5 +10,5 @@ public class Challenge {
             String key,
             String contentEncoding,
             String contentType,
-            Long contentLength) {}
+            Long contentLength) {}.
 }
