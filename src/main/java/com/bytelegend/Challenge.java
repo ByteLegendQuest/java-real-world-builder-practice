@@ -1,5 +1,7 @@
 package com.bytelegend;
 
+import software.amazon.awssdk.services.s3.model.PutObjectRequest;
+
 public class Challenge {
     public static void main() {
         System.out.println(createPutObjectRequest("bucket", "key", "utf-8", "plain/text", 1234L));
