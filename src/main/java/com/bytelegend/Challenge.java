@@ -14,6 +14,5 @@ public class Challenge {
             String contentType,
             Long contentLength) {
         return PutObjectRequest.builder().bucket(bucket).key(key).contentEncoding(contentEncoding).contentType(contentType).contentLength(contentLength).build();
-
     }
 }
